@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon Link -->
+    <link
+      rel="shortcut icon"
+      href="./images/cloudy_img-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <!-- Css Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Media Query Link -->
+     <link rel="stylesheet" href="media.css">
+    <!-- Boostrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome icon Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+    <title>Api Weather App</title>
+  </head>
+  <body>
+    <!-- Weather Container start -->
+    <div class="weather-container">
+      <div class="weather-input">
+        <input
+          type="search"
+          name=""
+          class="search-input"
+          placeholder="Search your City"
+        />
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="weather-city">
+        <h2>City</h2>
+        <div class="weather-date">
+          <span>Today</span>
+          <h3>12/17/2025</h3>
+        </div>
+      </div>
+      <div class="weather-img">
+        <div class="weather-temp">
+          <h1 class="temperature">0<span>°C</span></h1>
+          <span class="description">Cloudy Outside</span>
+        </div>
+        <img src="./images/cloudy_img-removebg-preview.png" alt="" />
+      </div>
+      <div class="weather-more-info">
+        <div class="weather-humidity">
+          <h4>Humidity</h4>
+          <div class="humidity-info">
+            <i class="fa-solid fa-water"></i>
+            <span>0 %</span>
+          </div>
+        </div>
+        <div class="weather-wind">
+          <h4>Wind</h4>
+          <div class="wind-info">
+            <i class="fa-solid fa-wind"></i>
+            <span>E 0m/s</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Weather Container end -->
+
+    <!-- Bootstrap Script Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>

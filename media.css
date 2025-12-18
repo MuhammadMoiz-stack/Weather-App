@@ -1,0 +1,103 @@
+/* media.css - Mobile Responsive for Weather App */
+
+@media (max-width: 420px) {
+  .weather-container {
+    width: 90%;
+    height: 700px;
+    max-width: 600px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .weather-input {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  .weather-input input {
+    width: 270px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    margin-right: 10px;
+  }
+  .weather-input input::placeholder {
+    font-size: 14px;
+    color: rgb(97, 97, 97);
+    font-family: "Poppins", sans-serif;
+  }
+  .weather-input button i {
+    background-color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    color: grey;
+    border-radius: 30px;
+  }
+  .weather-city {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 5px;
+  }
+
+  .weather-city h2 {
+    font-size: 28px;
+  }
+
+  .weather-city .weather-date h3,
+  .weather-city .weather-date span {
+    font-size: 19px;
+  }
+  .weather-temp {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .weather-img {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    gap: 10px;
+  }
+
+  .weather-img img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .weather-temp h1 {
+    font-size: 50px;
+  }
+
+  .weather-temp span {
+    font-size: 18px;
+  }
+
+  .weather-more-info {
+    flex-direction: column;
+    gap: 15px;
+    height: auto;
+    padding: 0 10px;
+  }
+
+  .humidity-info span,
+  .wind-info span {
+    font-size: 18px;
+  }
+
+  .humidity-info i,
+  .wind-info i {
+    font-size: 20px;
+  }
+}
