@@ -4,6 +4,12 @@ A simple and responsive **Weather Application** built using **HTML, CSS, and Jav
 
 ---
 
+🌐 Live Preview
+
+Check out the live version of the project here:
+👉 https://muhammadmoiz-stack.github.io/Weather-App/
+---
+
 ## 🚀 Features
 
 * Search weather by city name
