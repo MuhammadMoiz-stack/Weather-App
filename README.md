@@ -5,9 +5,9 @@ A simple and responsive **Weather Application** built using **HTML, CSS, and Jav
 ---
 
 🌐 Live Preview
-
 Check out the live version of the project here:
-👉 https://muhammadmoiz-stack.github.io/Weather-App/
+
+ https://muhammadmoiz-stack.github.io/Weather-App/
 ---
 
 ## 🚀 Features
